@@ -1,7 +1,7 @@
-import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import { thunkSlice } from "./slices/thunkSlice";
-import { createLogger } from "redux-logger";
-import { postSlice } from "./slices/postSlice";
+import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import { thunkSlice } from './slices/thunkSlice';
+import { createLogger } from 'redux-logger';
+import { postSlice } from './slices/postSlice';
 
 const loggerMiddleware = createLogger();
 
@@ -18,7 +18,7 @@ export const store = configureStore({
     getDefaultMiddleware()
       // prepend and concat calls can be chained
       .concat(loggerMiddleware),
-  devTools: process.env.NODE_ENV !== "production",
+  devTools: process.env.NODE_ENV !== 'production',
 });
 
 // Infer the `RootState` and `AppDispatch` types from the store itself

@@ -1,9 +1,9 @@
-import * as commonStyles from "../../assets/styles/common.module.scss";
-import * as styles from "./header.module.scss";
-import React from "react";
-import { NavLink } from "react-router-dom";
-import Logo from "../../components/Logo/logo";
-import { ROUTES } from "../../routes/constants";
+import * as commonStyles from '../../assets/styles/common.module.scss';
+import * as styles from './header.module.scss';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import Logo from '../../components/Logo/logo';
+import { ROUTES } from '../../routes/constants';
 
 function Header() {
   return (

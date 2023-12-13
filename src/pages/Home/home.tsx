@@ -1,28 +1,28 @@
-import * as styles from "./home.module.scss";
-import React from "react";
-import { useAppSelector, useAppDispatch } from "../../core/redux/hooks";
-import Button from "@mui/material/Button";
-import CircularProgress from "@mui/material/CircularProgress";
+import * as styles from './home.module.scss';
+import React from 'react';
+import { useAppSelector, useAppDispatch } from '../../core/redux/hooks';
+import Button from '@mui/material/Button';
+import CircularProgress from '@mui/material/CircularProgress';
 import {
   thunkSelector,
   fetchThunkApi,
-} from "../../core/redux/slices/thunkSlice";
+} from '../../core/redux/slices/thunkSlice';
 import {
   postSelector,
   setPostsError,
   setPostsLoading,
   setPostsSuccess,
-} from "../../core/redux/slices/postSlice";
-import reactImage from "../../assets/images/react.svg";
-import Alert from "@mui/material/Alert";
-import AlertTitle from "@mui/material/AlertTitle";
-import Stack from "@mui/material/Stack";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
-import { fetchPosts } from "../../core/api/api";
-import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
+} from '../../core/redux/slices/postSlice';
+import reactImage from '../../assets/images/react.svg';
+import Alert from '@mui/material/Alert';
+import AlertTitle from '@mui/material/AlertTitle';
+import Stack from '@mui/material/Stack';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+import { fetchPosts } from '../../core/api/api';
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 
 export default function Home() {
   const dispatch = useAppDispatch();
@@ -64,10 +64,10 @@ export default function Home() {
       <Box
         sx={{
           marginTop: 3,
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          "& > *": {
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          '& > *': {
             m: 1,
           },
         }}
@@ -84,7 +84,7 @@ export default function Home() {
               {thunkLoading ? (
                 <CircularProgress disableShrink />
               ) : (
-                "Show result"
+                'Show result'
               )}
             </Button>
           </Grid>
@@ -95,13 +95,13 @@ export default function Home() {
               onClick={getPosts}
               disabled={postsLoading && true}
             >
-              {postsLoading ? <CircularProgress disableShrink /> : "Get News"}
+              {postsLoading ? <CircularProgress disableShrink /> : 'Get News'}
             </Button>
           </Grid>
         </Grid>
       </Box>
 
-      <Stack sx={{ width: "100%" }} spacing={2} marginTop={5}>
+      <Stack sx={{ width: '100%' }} spacing={2} marginTop={5}>
         {thunkError.status && (
           <Alert severity="error">
             <AlertTitle>Error</AlertTitle>

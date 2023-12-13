@@ -1,8 +1,8 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import type { PayloadAction } from "@reduxjs/toolkit";
-import { fetchResult } from "../../api/api";
-import { RootState } from "../store";
-import { setPostsLoading } from "./postSlice";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import type { PayloadAction } from '@reduxjs/toolkit';
+import { fetchResult } from '../../api/api';
+import { RootState } from '../store';
+import { setPostsLoading } from './postSlice';
 
 export type TStateError = {
   status: boolean;
@@ -21,10 +21,10 @@ const initialState: IState = {
   result: null,
 };
 
-export const fetchThunkApi = createAsyncThunk("thunk/fetchResult", fetchResult);
+export const fetchThunkApi = createAsyncThunk('thunk/fetchResult', fetchResult);
 
 export const thunkSlice = createSlice({
-  name: "thunk",
+  name: 'thunk',
   initialState,
   reducers: {
     resetThunk: (state) => {

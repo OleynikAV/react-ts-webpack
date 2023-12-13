@@ -41,7 +41,10 @@
         ], // disallow multiple empty lines (off by default)
         "no-nested-ternary": 1, // disallow nested ternary expressions (off by default)
         "eqeqeq": 2, // require the use of === and !==
-        "react/prop-types": "off" // Prevent missing props validation in a React component definition
+        "react/prop-types": "off", // Prevent missing props validation in a React component definition
+        "no-console": ["error", { allow: ["warn", "error"] }], // disallow use of console (off by default in the node environment)
+        "key-spacing": 2,
+        "no-unused-vars": ["warn"]
     },
     "settings": {
         "react": {

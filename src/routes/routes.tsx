@@ -1,10 +1,11 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import { ROUTES } from "./constants";
-import Home from "../pages/Home/home";
-import Page404 from "../pages/Page404/page404";
-import Login from "../pages/Login/login";
-import News from "../pages/News/news";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { ROUTES } from './constants';
+import Home from '../pages/Home/home';
+import Page404 from '../pages/Page404/page404';
+import Login from '../pages/Login/login';
+import News from '../pages/News/news';
+
 
 export default function AppRoutes() {
   return (

@@ -1,7 +1,7 @@
-import { createSlice } from "@reduxjs/toolkit";
-import type { PayloadAction } from "@reduxjs/toolkit";
-import { RootState } from "../store";
-import { fetchThunkApi } from "./thunkSlice";
+import { createSlice } from '@reduxjs/toolkit';
+import type { PayloadAction } from '@reduxjs/toolkit';
+import { RootState } from '../store';
+import { fetchThunkApi } from './thunkSlice';
 
 export type TPost = {
   userId: number;
@@ -23,7 +23,7 @@ const initialState: IPostState = {
 };
 
 export const postSlice = createSlice({
-  name: "post",
+  name: 'post',
   initialState,
   reducers: {
     resetPosts: (state) => {
