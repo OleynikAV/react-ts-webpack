@@ -10,6 +10,8 @@ $colors: (
 );
 
 $fontSize: 24px;
+$fontFamilyMonospaced: 'Monospaced', sans-serif;
+$transition05: all 0.5s ease;
 
 @function stripUnit($number) {
   @if type-of($number) == "number" and not unitless($number) {

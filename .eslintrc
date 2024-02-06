@@ -31,7 +31,14 @@
             "error",
             "single"
         ],
-        "indent": ["error", 2, { "SwitchCase": 1 }],
+        "indent": [
+            "error",
+            3,
+            {
+                "SwitchCase": 2,
+                "ignoredNodes": ["TemplateLiteral"]
+            }
+        ],
         "no-fallthrough": "off", // disallow fallthrough of case statements
         "no-multiple-empty-lines": [
             1,
@@ -42,9 +49,23 @@
         "no-nested-ternary": 1, // disallow nested ternary expressions (off by default)
         "eqeqeq": 2, // require the use of === and !==
         "react/prop-types": "off", // Prevent missing props validation in a React component definition
-        "no-console": ["error", { allow: ["warn", "error"] }], // disallow use of console (off by default in the node environment)
+        "no-console": ["error", { "allow": ["warn", "error"] }], // disallow use of console (off by default in the node environment)
         "key-spacing": 2,
-        "no-unused-vars": ["warn"]
+        "no-unused-vars": ["off"],
+        "@typescript-eslint/no-unused-vars": ["warn"],
+        "comma-dangle": ["error", "always-multiline"],
+        "space-in-parens": ["error", "never"],
+        "space-before-function-paren": ["error", {
+            "anonymous": "always",
+            "named": "never",
+            "asyncArrow": "always"
+        }],
+        "space-before-blocks": "error",
+        "space-infix-ops": "error",
+        "semi-spacing": "error",
+        "brace-style": 2,
+        "object-curly-spacing": ["error", "always"],
+        "array-bracket-spacing": ["error", "never"]
     },
     "settings": {
         "react": {

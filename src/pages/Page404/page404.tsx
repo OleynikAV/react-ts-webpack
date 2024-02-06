@@ -1,6 +1,14 @@
 import * as styles from './page404.module.scss';
 import React from 'react';
+import images from '../../assets/images/404.jpg';
 
-export default function Page404() {
-  return <h1 className={styles.error}>404</h1>;
+interface Props {
+
 }
+const Page404: React.FC<Props> = () => {
+   return  (
+      <img src={images} alt='404' className={styles.sizeImages}/>
+   );
+
+};
+export default Page404;

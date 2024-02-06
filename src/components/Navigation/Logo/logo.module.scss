@@ -1,0 +1,15 @@
+@use "sass:map";
+@import "../../../assets/styles/variables";
+
+.logo{
+    @include fluidFontSize(24px, 36px, 480px, 1280px, 18px);
+    color: map.get($colors, white);
+    margin-right: 2px;
+    font-family: $fontFamilyMonospaced;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-decoration: none;
+    &:hover{
+        color: map.get($colors, dark-grey);
+    }
+}

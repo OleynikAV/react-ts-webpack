@@ -1,0 +1,19 @@
+@use "sass:map";
+@import "../../assets/styles/variables.scss";
+
+.position {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 1111;
+}
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}

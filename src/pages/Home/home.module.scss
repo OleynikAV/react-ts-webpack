@@ -1,13 +1,9 @@
 @use "sass:map";
 @import "../../assets/styles/variables.scss";
 
-.image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5vh;
-
-    img {
-        width: 140px;
-    }
+.title {
+    color: map-get($colors, black);
+    font-family: $fontFamilyMonospaced;
+    font-weight: bold;
+    line-height: normal;
 }

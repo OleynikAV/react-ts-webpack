@@ -1,0 +1,12 @@
+@use "sass:map";
+@import "../../../assets/styles/variables";
+
+.menu {
+  margin-top: 45px;
+}
+.box {
+  flex-grow: 0;
+}
+.link {
+  text-decoration: none;
+}

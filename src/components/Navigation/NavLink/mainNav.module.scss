@@ -1,0 +1,11 @@
+@use "sass:map";
+@import "../../../assets/styles/variables";
+
+.link {
+  @include fluidFontSize(8px, 14px, 480px, 1280px, 18px);
+  color: map.get($colors, white);
+  text-decoration: none;
+  &:hover{
+    color: map.get($colors, dark-grey);
+  }
+}

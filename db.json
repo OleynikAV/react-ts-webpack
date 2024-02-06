@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "Maine Coon",
+      "description": "The Maine Coon is one of the largest domestic cat breeds. It is known for its friendly nature, tufted ears, and bushy tail. Maine Coons are often referred to as 'gentle giants.'",
+      "date": "September 14, 2016",
+      "photo": "https://images.unsplash.com/photo-1606213651356-0272cc0becd2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFpbmUlMjBjb29ufGVufDB8fDB8fHww"
+    },
+    {
+      "id": "2",
+      "name": "Persian",
+      "description": "Persian cats are known for their long, luxurious fur and distinctive flat-faced appearance. They have a calm and gentle temperament, making them great companions.",
+      "date": "September 14, 2016",
+      "photo": "https://www.thesprucepets.com/thmb/5OSN_p9hUfPssKsJORQDGnAz_tQ=/1963x0/filters:no_upscale():strip_icc()/GettyImages-181861505-4e63227ed0a14dc9bfe86848ef54caf3.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Siamese",
+      "description": "Siamese cats are known for their striking blue almond-shaped eyes and short coat with color points. They are vocal, social, and enjoy interacting with their human companions.",
+      "date": "September 14, 2016",
+      "photo": "https://catinaflat.blog/wp-content/uploads/2022/07/siamese-kitten.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Bengal",
+      "description": "Bengal cats have distinctive spotted or marbled coats that resemble those of wild leopards. They are energetic, playful, and often enjoy playing in water.",
+      "date": "September 14, 2016",
+      "photo": "https://rawznaturalpetfood.com/wp-content/uploads/bengal-cat.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Scottish Fold",
+      "description": "The Scottish Fold is known for its unique folded ears, giving it an owl-like appearance. They are generally sweet-natured and adaptable to various living environments.",
+      "date": "September 14, 2016",
+      "photo": "https://images.ctfassets.net/440y9b545yd9/3mXEPSN2Ap12wAnFz8dVm2/8b34d9e82f41b11fcee66cc1fc741724/Scottish_fold_5_things_hero850.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Your Cat",
+      "description": "Description of Your Cat.",
+      "date": "September 14, 2016",
+      "photo": "https://www.thesprucepets.com/thmb/UE2YmdTqryCXk0aio-blB3wS24A=/3000x0/filters:no_upscale():strip_icc()/what-breed-is-my-cat-554697-04-9d823e1ef3724f13bec34b862a7df29e.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Ragdoll",
+      "description": "Ragdoll cats are known for their docile nature and striking blue eyes. They are often described as 'puppy-like' due to their tendency to follow their owners around.",
+      "date": "September 14, 2016",
+      "photo": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2023/resources/Ragdoll.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Sphynx",
+      "description": "The Sphynx cat is hairless and known for its wrinkled skin. Despite their lack of fur, they are friendly and enjoy warmth, often seeking out cozy spots in the home.",
+      "date": "September 14, 2016",
+      "photo": "https://image.petmd.com/files/styles/863x625/public/2023-04/sphynx-cat.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Abyssinian",
+      "description": "Abyssinian cats have a short, ticked coat and are known for their playful and active nature. They enjoy climbing and exploring their surroundings.",
+      "date": "September 14, 2016",
+      "photo": "https://www.thesprucepets.com/thmb/MigiLYeVSJcj0zkNVkJ--rALMZI=/2121x0/filters:no_upscale():strip_icc()/GettyImages-165827729-efc11c02690f457a81ef6ccbfa8eb34d.jpg"
+    },
+    {
+      "id": "10",
+      "name": "British Shorthair",
+      "description": "British Shorthair cats are known for their round faces and dense, plush coat. They are easygoing and make great indoor companions.",
+      "date": "September 14, 2016",
+      "photo": "https://www.thesprucepets.com/thmb/2HF5pGwbA1_74qlubXRyEM_xxlk=/2121x0/filters:no_upscale():strip_icc()/GettyImages-1319774380-c3da91f9259a47e0966007f8e10690ba.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Andrey",
+      "lastName": "Oleynik"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

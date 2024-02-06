@@ -1,11 +1,11 @@
 @use "sass:map";
 @import "../../assets/styles/variables.scss";
 
-$headerHeight: 50px;
+$headerHeight: 70px;
 
 .header {
   height: $headerHeight;
-  background-color: map.get($colors, violet);
+  background-color: map.get($colors, dark-grey);
 
   .content {
     display: flex;
