@@ -30,6 +30,11 @@ npm run webpack-config-prod
 ```bash
 npm run start-dev
 ```
+### Bundling in DEV environment with response to changes in code and local json serve
+
+```bash
+npm run start-dev-json-serve
+```
 
 ### Bundling in PROD environment with response to changes in code
 
