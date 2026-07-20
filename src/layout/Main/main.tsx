@@ -1,15 +1,15 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import * as commonStyles from '../../assets/styles/common.module.scss';
+import * as commonStyles from '@assets/styles/common.module.scss';
 import * as styles from '../../app.module.scss';
+import classNames from 'classnames';
 
-interface Props {
+export const Main: React.FC = () => {
 
-}
+   const combinedClasses = classNames(commonStyles.container, styles.content);
 
-export const Main: React.FC<Props> = () => {
    return (
-      <main className={[commonStyles.container, styles.content].join(' ')}>
+      <main className={combinedClasses}>
          <Outlet/>
       </main>
    );

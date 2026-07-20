@@ -1,13 +1,6 @@
 @use "sass:map";
 @import "./assets/styles/variables.scss";
 
-/*@font-face {
-  font-family: "Nekst";
-  src: local("Nekst"), local("Nekst-Black"),
-    url("./assets/fonts/Nekst-Black.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}*/
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"), local("Montserrat-Black"),
