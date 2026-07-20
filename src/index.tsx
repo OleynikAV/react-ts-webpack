@@ -8,7 +8,7 @@ import { Alerts } from './components/Alert/Alerts';
 import { Loader } from './components/Loader/Loader';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('root') as HTMLElement,
 );
 
 root.render(
@@ -20,5 +20,5 @@ root.render(
          <Alerts/>
          <Loader/>
       </React.StrictMode>
-   </Provider>
+   </Provider>,
 );

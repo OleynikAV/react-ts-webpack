@@ -4,9 +4,6 @@ import * as styles from './alerts.module.scss';
 import { handlerAlerts } from '../../core/redux/slices/storeSlice';
 import { useAppDispatch, useAppSelector } from '../../core/redux/hooks';
 
-interface Props {
-
-}
 const getTitleByType = (type: string): string => {
    switch (type) {
          case 'success':
@@ -18,7 +15,7 @@ const getTitleByType = (type: string): string => {
    }
 };
 
-export const Alerts: React.FC<Props> = () => {
+export const Alerts: React.FC = () => {
    const [visible, setVisible] = useState(false);
    const alerts = useAppSelector(({ store }) => store.alerts);
    const { type , description, show } = alerts;

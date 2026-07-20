@@ -3,10 +3,7 @@ import React from 'react';
 import { Box } from '@mui/material';
 import Grid from '@mui/material/Grid';
 
-interface Props {
-
-}
-const Profile: React.FC<Props> = () => {
+const Profile: React.FC = () => {
    return  (
       <Box className={styles.indentation}>
          <Grid container>
