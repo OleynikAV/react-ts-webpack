@@ -4,7 +4,6 @@ import { Provider } from 'react-redux';
 import { store } from './core/redux/store';
 import { BrowserRouter } from 'react-router-dom';
 import AppRoutes from './routes/routes';
-import './firebase/Firebase';
 import { Alerts } from './components/Alert/Alerts';
 import { Loader } from './components/Loader/Loader';
 

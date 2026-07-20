@@ -6,6 +6,16 @@
             "__jest__"
         ],
         "outDir": "build",
+        "baseUrl": "src",
+        "paths": {
+            "@assets/*": ["assets/*"],
+            "@components/*": ["components/*"],
+            "@core/*": ["core/*"],
+            "@layout/*": ["layout/*"],
+            "@pages/*": ["pages/*"],
+            "@routes/*": ["routes/*"],
+            "@types/*": ["types/*"]
+        },
         "lib": [
             "dom",
             "esnext"
