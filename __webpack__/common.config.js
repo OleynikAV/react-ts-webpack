@@ -8,7 +8,6 @@ const FileManagerPlugin = require('filemanager-webpack-plugin');
 
 const BUILD_DIR = path.resolve(__dirname, '..', 'build');
 const PUBLIC_DIR = path.resolve(__dirname, '..', 'public');
-const STATIC_DIR = path.resolve(__dirname, '..', 'static');
 
 const plugins = [
    new FileManagerPlugin({
@@ -16,15 +15,6 @@ const plugins = [
       // Remove build dir
          onStart: {
             delete: [BUILD_DIR],
-         },
-         onEnd: {
-            // Copy static files
-            copy: [
-               {
-                  source: STATIC_DIR,
-                  destination: BUILD_DIR,
-               },
-            ],
          },
       },
    }),
