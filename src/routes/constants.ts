@@ -1,7 +1,5 @@
-export enum ROUTES {
-  HOME = '/',
-  NEWS = '/news/',
-  LOGIN = '/login/',
-  PROFILE = '/profile/',
-  ACCOUNT = '/account/',
-}
+export const ROUTES =  {
+   HOME: '/',
+   NEWS: '/news/',
+   PAGENOTFOUND: '*',
+};

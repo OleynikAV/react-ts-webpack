@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { UserInfo } from '@firebase/auth';
+
 interface Alerts {
    type: 'error' | 'warning' | 'info' | 'success'
    description: string | number
@@ -8,7 +8,6 @@ interface Alerts {
 export interface RootReducer {
    preloader: boolean
    alerts: Alerts
-   currentUser: UserInfo
 }
 
 const initialState: RootReducer = {
@@ -18,8 +17,6 @@ const initialState: RootReducer = {
       description: '',
       show: false,
    },
-   currentUser: {} as UserInfo,
-
 };
 
 export const catalogSlice = createSlice({
@@ -32,10 +29,6 @@ export const catalogSlice = createSlice({
       handlerAlerts(state, action: PayloadAction<Alerts>) {
          state.alerts = action.payload;
       },
-      handlerGetCurrentUser(state, action : PayloadAction<UserInfo>) {
-         state.currentUser = action.payload;
-         
-      },
    },
 });
 
@@ -43,6 +36,5 @@ const { actions, reducer } = catalogSlice;
 export const {
    handlerPreloader,
    handlerAlerts,
-   handlerGetCurrentUser,
 } = actions;
 export default reducer;
