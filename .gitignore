@@ -10,3 +10,4 @@ coverage
 
 # Системное / IDE
 .DS_Store
+.idea/
