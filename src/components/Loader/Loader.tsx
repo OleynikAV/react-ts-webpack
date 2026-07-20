@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, CircularProgress } from '@mui/material';
 import * as styles from './loader.module.scss';
-import { useAppSelector } from '../../core/redux/hooks';
+import { useAppSelector } from '@core/redux/hooks';
 
 interface Props {
    size?: number
